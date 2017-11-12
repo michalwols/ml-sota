@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Densely Connected Convolutional Networks ",
+    "authors": ["John"],
+    "publication_date": "2015-02-23",
+    "tldr": "Amazing new pooling method",
+    "tags": ["pooling"],
+    "results": [
+      {
+        "dataset": "MNIST",
+        "note": "extra data",
+        "result": {
+          "metric": "MAP",
+          "value": 96.53,
+          "baseline": 90
+        }
+      }
+    ]
+  },
+  {
+    "title": "PolyNet: A Pursuit of Structural Diversity in Very Deep Networks",
+    "authors": ["Xingcheng Zhang", "Zhizhong Li", "Chen Change Loy", "Dahua Lin"],
+    "publication_date": "2017-08-17",
+    "tldr": "we present a new family of modules, namely the PolyInception, which can be flexibly inserted in isolation or in a composition as replacements of different parts of a network",
+    "links": [
+      "https://arxiv.org/abs/1611.05725"
+    ],
+    "sota": true,
+    "contributions": [],
+    "tags": ["resnet", "inception"],
+    "results": [
+      {
+        "dataset": "MNIST",
+        "note": "extra data",
+        "result": {
+          "metric": "MAP",
+          "value": 96.53
+        }
+      }
+    ]
+  },
+  {
+    "title": "SGDR: Stochastic Gradient Descent with Warm Restarts",
+    "authors": ["Ilya Loshchilov", "Frank Hutter"],
+    "publication_date": "2017-03-03",
+    "tags": [],
+    "results": [
+      {
+        "dataset": "CIFAR 10",
+        "result": {
+          "metric": "MAP",
+          "value": 96.86
+        }
+      },
+      {
+        "dataset": "CIFAR 100",
+        "result": {
+          "metric": "MAP",
+          "value": 83.79
+        }
+      },
+      {
+        "dataset": "CIFAR 10",
+        "result": {
+          "metric": "MAP",
+          "value": 96.86
+        }
+      },
+      {
+        "dataset": "imagenet 2012 recognition",
+        "result": {
+          "metric": "MAP",
+          "value": 96.86,
+          "task": "segmentation"
+        }
+      },
+      {
+        "dataset": "Coco-text",
+        "result": {
+          "metric": "MAP",
+          "value": 83.79
+        }
+      }
+    ]
+  },
+  {
+    "title": "Residual Networks of Residual Networks: Multilevel Residual Networks",
+    "authors": ["John"],
+    "publication_date": "2016-09-22",
+    "tags": [],
+    "results": [
+      {
+        "dataset": "CIFAR 10",
+        "note": "extra data",
+        "result": {
+          "metric": "MAP",
+          "value": 96.53
+        }
+      }
+    ]
+  }
+]

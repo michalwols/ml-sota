@@ -1,0 +1,44 @@
+[
+  {
+    "name": "MNIST",
+    "links": [
+      "http://yann.lecun.com/exdb/mnist/"
+    ],
+    "stats": {
+      "numClasses": 10,
+      "numTrain": 60000,
+      "numTest": 10000,
+      "imgSize": "28x28"
+    },
+    "tags": [
+      "images",
+      "classification",
+      "image-recognition",
+      "numbers"
+    ],
+    "tasks": [
+      {
+        "name": "classification",
+        "metric": "accuracy"
+      }
+    ]
+  },
+  {
+    "name": "CIFAR 10",
+    "links": [
+      "http://yann.lecun.com/exdb/mnist/"
+    ],
+    "stats": {
+      "numClasses": 10,
+      "numTrain": 60000,
+      "numTest": 10000,
+      "imgSize": "28x28"
+    },
+    "tags": [
+      "images",
+      "classification",
+      "image-recognition",
+      "numbers"
+    ]
+  }
+]
